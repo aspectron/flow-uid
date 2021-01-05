@@ -1,6 +1,6 @@
 {
   "name": "@aspectron/flow-uid",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "UID Generator",
   "main": "index.js",
   "repository": {
@@ -10,7 +10,6 @@
   "keywords": [],
   "license": "MIT",
   "dependencies": {
-    "base-x": "3.0.8"
   },
   "devDependencies": {
     "eslint": "*",
