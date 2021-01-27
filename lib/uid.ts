@@ -1,6 +1,6 @@
 import crypto = require('crypto');
 const alphabet = '123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz'.split('');
-export const FlowUid = (options:Object) => {
+const FlowUid = (options?:Object) => {
     const { length, prefix, suffix, firstMustBeLetter }
         = Object.assign({
             length : 16,
@@ -18,3 +18,5 @@ export const FlowUid = (options:Object) => {
         uid = uid+suffix;
     return uid;
 }
+
+export { FlowUid }

@@ -1,8 +1,8 @@
 {
   "name": "@aspectron/flow-uid",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "UID Generator",
-  "main": "dist/index.js",
+  "main": "./dist/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aspectron/flow-uid"
